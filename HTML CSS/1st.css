@@ -1,76 +1,44 @@
 *{
-    margin: 0;
+    box-sizing: border-box;
     padding: 0;
-box-sizing: border-box;}
-.wraper{
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    margin: 0;
 }
-.container{
-    max-width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 20px;
-}
-h1{
 
-text-align: center;
-margin: 20px 0;
-margin-bottom: 20px;
-font-size: 3rem;
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
-}
-.card{position: relative;
-   width: 32%;
-  height: 100%;
-margin-bottom: 20px;
-border-radius: 10px;
-overflow: hidden;
+.container {
+    height: 200vh;
+    background-color: aqua;
+width: 1000vw;
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr ;
+    grid-template-columns: repeat(2,1fr);
+ grid-template-areas: "b1 b1 "
+ "b2 b3"
+"b4 b4" 
+
+ ;
+ gap: 2px;
 
 }
-.card img{
-   
-    height: 100%;
-    width: 100%;
-    filter: grayscale();
-    box-shadow: 0 0 20px black;
-    object-fit: cover;
-    z-index: 3;
-}
-.card:hover{
-    transform: scale(1.03);
-    filter: drop-shadow(0 0 5px black);
-    transition:  0.5s;
 
-    
+#box1{
+grid-area: b1;
   
 }
-.card:hover img{
-    filter: grayscale(0);
+#box2{
+    grid-area: b2;
 }
-.card figcaption{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-padding: 20px;
-width: 100%;
-height: 20%;
-font-size: 16px;
-font-weight: 500;
-color: white;
-opacity: 0;
-border-radius: 0 0  10px 10px;
-background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%,rgba(255 255 255 0) 100% );
-transition: 0.5s;
+#box3{
+    grid-area: b3;
 }
-.card:hover figcaption{
-    opacity: 1;
-    transform: scale(1.03);
-    transition: 0.5s;
+#box4{
+    grid-area: b4;
+}
+#box5{
+    grid-area: b5;}
+
+.box{
+
+    border: black solid 1px;
+    background-color: blueviolet;
 }
