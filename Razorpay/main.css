@@ -672,6 +672,9 @@ video {
 .hidden {
   display: none;
 }
+.bg-\[url\(\/images\/core-features-sectionBg\.svg\)\] {
+  background-image: url(/images/core-features-sectionBg.svg);
+}
 .h-1 {
   height: 0.25rem;
 }
