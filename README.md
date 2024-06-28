@@ -2,7 +2,7 @@
  Here i have stored all my Learining Codes
  <br>
 
-
+<a href="https://shahzan01.github.io/My_Learnings/passwordGenerator/" target="_blank" rel="noreferrer">Password Generator</a> <br>
 <a href="https://shahzan01.github.io/My_Learnings/DCclone" target="_blank" rel="noreferrer">Discord Clone</a> <br>
 <a href="https://shahzan01.github.io/My_Learnings/Razorpay" target="_blank" rel="noreferrer">Razorpay Clone</a><br>
 <a href="https://shahzan01.github.io/My_Learnings/HTML%20CSS/portfolio%20template/" target="_blank" rel="noreferrer">Porfolio Website Template</a><br>
